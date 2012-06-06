@@ -1,0 +1,18 @@
+body { padding: 50px 80px; background: #454545; background:url("/images/black-Linen2.png"); color: #b2b2b2; font-family: "LondonMM";}
+
+a {text-decoration:none; color: #b2b2b2; }
+
+#wrapper { margin:0 auto;  width:1000px; }
+
+#header { float:left; display:inline; width:100%; }
+#header ul { font-size: 24px; list-style:none; }
+#header a { text-decoration:none; color: #b8b8b8; }
+#header h1 { float:left; display:inline; font-size: 64px; }
+#header ul { float:right; display:inline; margin-top:15px; }
+
+#footer { margin-left: 130px; font-size: 14pt; margin-top:20px; float:left; display:inline; }
+#footer ul { list-style:none; }
+#footer ul li { float:left; display:inline; margin-right: 30px; }
+
+#content { float:left; width:500px; height:500px; background:#333; padding:20px; box-shadow:0px 0px 20px #090909; border-radius:5px; }
+
