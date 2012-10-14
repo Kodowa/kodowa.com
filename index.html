@@ -1,11 +1,244 @@
----
-layout: default
-title: Musings and such.
-meta: The musings, ramblings, and projects of a man enamored with design, Clojure, and building useful things.
----
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kodowa</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="//use.typekit.net/lsk4tln.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/index.js"></script>
+</head>
+<body>
 
-<div id="post">
-    <span class="date">{{ site.posts.first.date | date_to_string }}</span>
-    <h2><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></h2>
-    {{ site.posts.first.content }}
+<div class="uberwrapper">
+<div id="navbar">
+	<div class="wrapper980">
+	<img src="elements/navlogo.png" alt="Kodowa, Inc.">
+	<ul>
+		<li><a href="#">HOME</a></li>
+		<li><a href="#blog">BLOG</a></li>
+		<li><a href="#KS">CONTRIBUTORS</a></li>
+		<li><a href="#about">ABOUT</a></li>
+		<li><a href="#jobs">JOBS</a></li>
+	</ul>
+	</div>
 </div>
+
+<div id="slidewrapper">
+    <ul class="dots">
+        <li class="active" data-slide="lighttable"></li>
+        <li data-slide="mission"></li>
+        <li data-slide="sf"></li>
+    </ul>
+    <ul id="slides">
+        <li class="lighttable active">
+            <a class="featured leftblocks" href="http://app.kodowa.com/playground">
+                <span class="ftext">Introducing</span>
+                <span class="ftext green">Light Table:</span>
+                <span class="ftext">Better software,</span>
+                <span class="ftext">faster <span class="arrow">&rarr;</span></span>
+            </a>
+        </li>
+        <li class="mission">
+            <a class="featured" href="#about">
+                <span class="ftext">Our mission is</span>
+                <span class="ftext">to empower the</span>
+                <span class="ftext">next generation</span>
+                <span class="ftext">of creators <span class="arrow">&rarr;</span></span>
+            </a>
+        </li>
+        <li class="sf">
+            <a class="featured leftblocks" href="#jobs">
+                <span class="ftext">Wanted:</span>
+                <span class="ftext">Engineers to build</span>
+                <span class="ftext">a beautiful future</span>
+                <span class="ftext">with us <span class="arrow">&rarr;</span></span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div id="blog">
+	<div class="wrapper980">
+        <h1 class="bloghead">Blog</h1><br>
+        <a href="http://chris-granger.com" class="button floatleft"><span class="main">VIEW MORE BLOG POSTS</span><span class="cap"></span><span class="arrow">&rarr;</span></a><br /><br />
+        <div id="blogposts">
+            <div class="leftcolumn">
+                <a href="http://www.chris-granger.com/2012/10/05/all-ideas-are-old-ideas/">
+                    <table class="post" class="">
+                        <tr>
+                            <td class="date"><span class="day">OCT 5</span><span class="year">2012</span></td>
+                            <td class="blogpost"><span class="posttitle">All ideas are old ideas</span><br /><span class="posttext">My last post generated some discussion on telling people more about the ideas ...</span></td>
+                            <td class="arrow"><span class="arrow">&rarr;</span></td>
+                        </tr>
+                    </table>
+                </a>
+                <a href="http://www.chris-granger.com/2012/09/25/light-table---embracing-abstraction/">
+                    <table class="post" class="">
+                        <tr>
+                            <td class="date"><span class="day">SEP 25</span><span class="year">2012</span></td>
+                            <td class="blogpost"><span class="posttitle">Embracing abstraction</span><br /><span class="posttext">Yesterday I gave a talk at Strange Loop about Light Table, in which I stressed the idea that we ...</span></td>
+                            <td class="arrow"><span class="arrow">&rarr;</span></td>
+                        </tr>
+                    </table>
+                </a>
+                
+                <a href="http://www.chris-granger.com/2012/08/17/light-table-reaches-010/">
+                    <table class="post" class="">
+                        <tr>
+                            <td class="date"><span class="day">AUG 17</span><span class="year">2012</span></td>
+                            <td class="blogpost"><span class="posttitle">Light Table reaches 0.1.0</span><br /><span class="posttext">The Light Table playground is getting a huge update today that we're really ...</span></td>
+                            <td class="arrow"><span class="arrow">&rarr;</span></td>
+                        </tr>
+                    </table>
+                </a>
+            </div>
+            <div class="leftcolumn">
+                <a href="http://www.chris-granger.com/2012/07/09/light-table-playgrounds-level-up/">
+                    <table class="post">
+                        <tr>
+                            <td class="date"><span class="day">JUL 9</span><span class="year">2012</span></td>
+                            <td class="blogpost"><span class="posttitle">Light Table Playground Levels Up</span><br /><span class="posttext">I'm happy to announce the release of v0.0.7 of the Light Table ...</span></td>
+                            <td class="arrow"><span class="arrow">&rarr;</span></td>
+                        </tr>
+                    </table>
+                </a>
+                <a href="http://www.chris-granger.com/2012/06/26/24-hours-later/">
+                    <table class="post" class="">
+                        <tr>
+                            <td class="date"><span class="day">JUN 26</span><span class="year">2012</span></td>
+                            <td class="blogpost"><span class="posttitle">Light Table - 24 hours later</span><br /><span class="posttext">Yesterday we released the playground to the world. It has been a s...</span></td>
+                            <td class="arrow"><span class="arrow">&rarr;</span></td>
+                        </tr>
+                    </table>
+                </a>
+                <a href="http://www.chris-granger.com/2012/06/24/its-playtime/">
+                    <table class="post">
+                        <tr>
+                            <td class="date"><span class="day">JUN 24</span><span class="year">2012</span></td>
+                            <td class="blogpost"><span class="posttitle">It's playtime - Light Table Playground released</span><br /><span class="posttext">I'm happy to announce the official release of the...</span></td>
+                            <td class="arrow"><span class="arrow">&rarr;</span></td>
+                        </tr>
+                    </table>
+                </a>
+            </div>
+        </div>
+	</div>
+</div>
+
+<div id="KS">
+	<div class="wrapper980">
+	<table id="kshead">
+		<tr>
+		<td class="onkstext">
+		<p class="project">THE <span class="lt">LIGHT TABLE</span> PROJECT: ONE OF THE</p>
+		<p class="top10">TOP 10</p>
+		<p class="hitech">HIGHEST TECHNOLOGY PROJECTS</p>
+		</td>
+		<td id="onks">
+		<img src="elements/onks.png" style="float:right">
+		</td>
+		</tr>
+	</table>
+	<div class="left">
+		<h4>THE PROJECT</h4>
+		<p>When we released our first blog post about Light Table back in April, it was just a new concept for an IDE. Thanks to the community, our concept was pushed to become a reality. You all helped spread the word about the future of tools and made Light Table the most funded software technology project ever on Kickstarter.<br /><br />With 7,317 backers and over $316,000, we reached our stretch goal to include Python in our final release. It has been a humbling experience to see such an outpour of excitement, and we sincerely thank each and every one of you for your support.</p>
+        <a href="http://www.kickstarter.com/projects/ibdknox/light-table" class="button floatleft"><span class="main">VIEW ON KICKSTARTER</span><span class="cap"></span><span class="arrow">&rarr;</span></a>
+	</div>
+	<div class="right">
+		<h4>OUR BIGGEST KICKSTARTER SUPPORTERS</h4>
+		<table id="bigsupport">
+			<tr>
+			<td class="redgate"><img src="elements/redgate.png"></td>
+			<td class="logicblox"><img src="elements/logicblox.png"></td>
+			</tr>
+			<tr>
+			<td class="matt"><span>Matt Mullenweg</span></td>
+			<td class="thoughtworks"><img src="elements/thoughtworks.png"></td>
+			</tr>
+		</table>
+        <a href="http://www.kickstarter.com/projects/ibdknox/light-table/backers" class="button floatleft"><span class="main">VIEW ALL CONTRIBUTORS</span><span class="cap"></span><span class="arrow">&rarr;</span></a>
+	</div>
+	</div>
+</div>
+
+<div id="about">
+	<div class="wrapper980">
+		<h1>About Kodowa</h1>
+		<table id="bullets">
+			<tr>
+                <td class="topleft">
+                    <img src="elements/kodowa.png">
+                    <div class="abouttext">
+                        <h3>KODOWA</h3>
+                        <p>We are a small SF-based team of some of the best and brightest in the industry.</p>
+                    </div>
+                </td>
+			<td class="topright" class="top"><img src="elements/mission.png"><div class="abouttext"><h3>MISSION</h3><p>Our mission is to empower the next generation of creators, and provide them with the tools they need to thrive.</p></div></td>
+			</tr>
+			<tr>
+			<td class="midleft"><img src="elements/elegant.png"><div class="abouttext"><h3>ELEGANT</h3><p>adj. - (of a scientific theory or solution to a problem) Pleasingly ingenious and simple. We believe this is how your software should be.</p></div></td>
+			<td class="midright"><img src="elements/design.png"><div class="abouttext"><h3>DESIGN</h3><p>The design of the thing is the thing. A lot of software ignores this, but we think it's one of the most important parts of the experience.</p></div></td>
+			</tr>
+			<tr>
+			<td class="botleft"><img src="elements/grassroots.png"><div class="abouttext"><h3>GRASS ROOTS</h3><p>We are not a huge corporation. The community is as much a part of our projects as we are, because none of us are as smart as all of us.</p></div></td>
+			<td class="botright"><img src="elements/passion.png"><div class="abouttext"><h3>PASSION</h3><p>We have a vision for the future and we want to actively help mold it. Our measure as a company is what kind of impact we can have on the world around us.</p></div></td>
+			</tr>
+		</table>
+		<table id="founders">
+			<tr>
+			<td class="fuzzy"><img src="elements/chris.png"><h2>Chris Granger</h2><h5>CO-FOUNDER</h5><p>Chris grew up as part of the Nintendo generation, having learned the parts of a computer at the age of two, and numbers and colors from a Sesame Street game on the NES. He started programming at the age of ten and became a professional developer at 17.<br /><br />Since then, he's built websites large and small, written frameworks and libraries used by thousands, taught developers around the world, and helped envision the future of development at Microsoft.</p>
+                <a href="mailto:chris@kodowa.com" class="button floatleft"><span class="main">CHRIS@KODOWA.COM</span><span class="cap"></span><span class="arrow">&rarr;</span></a>
+            </td>
+			<td class="rob"><img src="elements/rob.png"><h2>Robert Attorri</h2><h5>CO-FOUNDER</h5><p>Robert has been an engineer since the day he was born, with a penchant for taking things apart to figure out how they work and putting them back together. He is a bioengineer by training, with a background in tissue engineering and orthopedic stem cell research.<br /><br />He thinks medicine is going to see a major overhaul in the next decade and wants to improve the tools and technology behind medical research. There is nothing he cannot fix with duct tape.</p>
+                <a href="mailto:rob@kodowa.com" class="button floatleft"><span class="main">ROB@KODOWA.COM</span><span class="cap"></span><span class="arrow">&rarr;</span></a>
+            </td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+<div id="jobs">
+	<div class="wrapper980">
+	<h1>Jobs</h1>
+	<h5>WANTED: ENGINEERS</h5>
+	<img src="elements/jobs.jpg">
+	<p>First and foremost, we're looking for inventive, smart people. The world is playdough and you're out to shape it. You believe that what we're doing isn't simply a matter of making some programmers more efficient, but instead enabling people to have an impact on their own. We're looking for folks who have proven they can build beautiful things and have the creativity to imagine what the future might look like.<br /><br />These are the people who want to be a part of the community and help direct the the craft of programming. You learn fast, and thrive in an environment that is constantly evolving as we learn more about the problems we're solving. And ultimately, you want to have fun while making a real difference in the world.</p>
+        <a href="mailto:jobs@kodowa.com" class="button floatleft"><span class="main">APPLY NOW</span><span class="cap"></span><span class="arrow">&rarr;</span></a>
+	</div>
+</div>
+
+<div id="navbottom">
+	<div class="wrapper980">
+	<table id="contact">
+		<tr>
+		<td><p>&copy; KODOWA 2012</p></td>
+		<td><p>555.678.9011</p></td>
+		</tr>
+		<tr>
+		<td><p>SAN FRANCISCO, CA</p></td>
+		<td><a href="mailto:info@kodowa.com">INFO@KODOWA.COM</a></td>
+		</tr>
+	</table>
+	<table id="links">
+		<tr>
+		<td><a href="http://app.kodowa.com">LIGHT TABLE</p></td>
+		<td><a href="#KS">SUPPORTERS</p></td>
+		<td><a href="#about">ABOUT</p></td>
+		</tr>
+		<tr>
+		<td><a href="#blog">NEWS</p></td>
+		<td><a href="http://chris-granger.com">BLOG</p></td>
+		<td><a href="#jobs">JOBS</p></td>
+		</tr>
+	</table>
+	<a href="http://www.kickstarter.com/projects/ibdknox/light-table" class="button2 floatright"><img src="elements/kickstarter.png"></a>
+	<a href="http://www.facebook.com/LightTable" class="button2 floatright"><img src="elements/facebook.png"></a>
+	<a href="https://twitter.com/kodowalt" class="button2 floatright"><img src="elements/twitter.png"></a>
+    </div>
+</div>
+
+</div>
+
+</body>
+</html>
