@@ -28,7 +28,7 @@ $(function() {
 
     var resetTimer = function() {
         clearTimeout(timer);
-        timer = setTimeout(next, 5000);
+        timer = setTimeout(next, 8000);
     }
 
     $("li", dots).click(function() {

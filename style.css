@@ -55,7 +55,7 @@ body { background:#0d0c0e; }
 a { text-decoration: none; }
 
 .wrapper980 { width: 980px; margin:0 auto; }
-.uberwrapper { width:1280px;background: url('elements/background.png'); margin:0 auto; }
+.uberwrapper { width:1280px; background: url('elements/background.png'); margin:0 auto; height:100%; }
 
 .floatleft { float: left;}
 .floatright { float: right;}
@@ -176,7 +176,7 @@ div.abouttext { float:left; display:inline; width:370px; vertical-align:middle; 
 #bullets td.botleft { padding-right: 14px; border-top: 1px solid rgba(255, 255, 255, 0.1); border-right: 1px solid black;}
 #bullets td.botright { padding-left: 14px; border-top: 1px solid rgba(255, 255, 255, 0.1); border-left: 1px solid rgba(255, 255, 255, 0.1);}
 
-#founders { height: 370px; width: 980px; background-color: #111a1f; border-radius: 3px}
+#founders { height: 390px; width: 980px; background-color: #111a1f; border-radius: 3px}
 #founders p {display: block; padding: 10px 0px 15px;}
 #founders td { padding: 0px 30px 0px;}
 #founders td.fuzzy { width: 430px; border-right: 1px solid #18252d}
@@ -187,7 +187,7 @@ div.abouttext { float:left; display:inline; width:370px; vertical-align:middle; 
 #jobs h1 { margin-bottom:10px; }
 #jobs h5 { width: 482px; float: left;}
 #jobs p { width: 428px; padding: 10px 54px 20px 0px; float: left;}
-#jobs img { float: right;}
+#jobs img { float: right; border-radius:3px; }
 #jobs a.button { clear:both; }
 
 #navbottom { height: 91px; background-color: rgba(0, 0, 0, 0.3); padding-top: 41px}
@@ -205,3 +205,6 @@ div.abouttext { float:left; display:inline; width:370px; vertical-align:middle; 
 #contact td { width: 175px;}
 #links { display: inline; float: left; width: 372px; background-color: transparent; border-right: 1px solid rgba(255, 255, 255, 0.1); margin-right: 37px}
 #links td { padding-left: 44px;}
+
+#lost {width:980px; margin: 0 auto; }
+#lost h1 { margin-top:300px; }
